@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="369" height="209.07" viewBox="0 0 369 209.07">
+  <defs>
+    <filter id="합치기_1" x="0" y="0" width="369" height="209.07" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_1543" data-name="그룹 1543" transform="translate(-1129 -11170.973)">
+    <g transform="matrix(1, 0, 0, 1, 1129, 11170.97)" filter="url(#합치기_1)">
+      <path id="합치기_1-2" data-name="합치기 1" d="M2628.547,3313.769l-17.427-19.07a4.149,4.149,0,0,1-.517-.7H2505a28,28,0,0,1-28-28v-72a28,28,0,0,1,28-28h253a28,28,0,0,1,28,28v72a28,28,0,0,1-28,28H2652.4a4.164,4.164,0,0,1-.517.7l-17.426,19.07a4,4,0,0,1-5.906,0Z" transform="translate(-2447 -3141)" fill="#fff"/>
+    </g>
+    <text id="_오늘_원하는_맛집을_찾을_수_있을까_" data-name="&quot;오늘 원하는 맛집을 
+     찾을 수 있을까?&quot;" transform="translate(1313 11249.973)" fill="#2a2a2a" font-size="27" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500" letter-spacing="-0.045em"><tspan x="-108.783" y="0">&quot;오늘 원하는 맛집을 </tspan><tspan x="-100.899" y="38" xml:space="preserve">     찾을 수 있을까?&quot;</tspan></text>
+  </g>
+</svg>

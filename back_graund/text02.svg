@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1498" height="173" viewBox="0 0 1498 173">
+  <defs>
+    <filter id="사각형_74" x="0" y="0" width="350" height="173" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#fbb03b" flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="사각형_76" x="382" y="0" width="350" height="173" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-color="#fbb03b" flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="사각형_77" x="764" y="0" width="351" height="173" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-color="#fbb03b" flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="사각형_78" x="1147" y="0" width="351" height="173" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-color="#fbb03b" flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_1518" data-name="그룹 1518" transform="translate(-215 -4726)">
+    <g transform="matrix(1, 0, 0, 1, 215, 4726)" filter="url(#사각형_74)">
+      <g id="사각형_74-2" data-name="사각형 74" transform="translate(6 6)" fill="#fff" stroke="#f5ede0" stroke-width="1.5">
+        <rect width="332" height="155" rx="10" stroke="none"/>
+        <rect x="0.75" y="0.75" width="330.5" height="153.5" rx="9.25" fill="none"/>
+      </g>
+    </g>
+    <rect id="사각형_79" data-name="사각형 79" width="228" height="9" transform="translate(271 4785)" fill="#ffdda8"/>
+    <text id="흥미를_유발하고_정보를_한눈에_파악할_수_있는_인터페이스를_구성하면_좋을_것_같아." data-name="흥미를 유발하고 정보를 한눈에 
+파악할 수 있는 인터페이스를 
+구성하면 좋을 것 같아." transform="translate(387 4789)" fill="#232323" font-size="18" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-weight="700"><tspan x="-115.794" y="0">흥미를 유발하고 정보를 한눈에</tspan><tspan y="0" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"> </tspan><tspan font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="-107.46" y="28">파악할 수 있는 인터페이스를 </tspan><tspan x="-83.277" y="56">구성하면 좋을 것 같아.</tspan></tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 215, 4726)" filter="url(#사각형_76)">
+      <g id="사각형_76-2" data-name="사각형 76" transform="translate(388 6)" fill="#fff" stroke="#f5ede0" stroke-width="1.5">
+        <rect width="332" height="155" rx="10" stroke="none"/>
+        <rect x="0.75" y="0.75" width="330.5" height="153.5" rx="9.25" fill="none"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 215, 4726)" filter="url(#사각형_77)">
+      <g id="사각형_77-2" data-name="사각형 77" transform="translate(770 6)" fill="#fff" stroke="#f5ede0" stroke-width="1.5">
+        <rect width="333" height="155" rx="10" stroke="none"/>
+        <rect x="0.75" y="0.75" width="331.5" height="153.5" rx="9.25" fill="none"/>
+      </g>
+    </g>
+    <rect id="사각형_81" data-name="사각형 81" width="214" height="9" transform="translate(660 4786)" fill="#ffdda8"/>
+    <g transform="matrix(1, 0, 0, 1, 215, 4726)" filter="url(#사각형_78)">
+      <g id="사각형_78-2" data-name="사각형 78" transform="translate(1153 6)" fill="#fff" stroke="#f5ede0" stroke-width="1.5">
+        <rect width="333" height="155" rx="10" stroke="none"/>
+        <rect x="0.75" y="0.75" width="331.5" height="153.5" rx="9.25" fill="none"/>
+      </g>
+    </g>
+    <rect id="사각형_82" data-name="사각형 82" width="67" height="9" transform="translate(1062 4786)" fill="#ffdda8"/>
+    <rect id="사각형_83" data-name="사각형 83" width="141" height="9" transform="translate(1115 4813)" fill="#ffdda8"/>
+    <text id="한눈에_볼_수_있는_예약현황이_있으면_아주_편리하게_앱을_사용_할_수_있을_것_같아." data-name="한눈에 볼 수 있는 예약현황이 
+있으면 아주 편리하게 
+앱을 사용 할 수 있을 것 같아." transform="translate(769 4790)" fill="#232323" font-size="18" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-weight="700"><tspan x="-109.575" y="0">한눈에 볼 수 있는 예약현황이 </tspan><tspan font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="-80.595" y="28">있으면 아주 편리하게 </tspan><tspan x="-105.912" y="56">앱을 사용 할 수 있을 것 같아.</tspan></tspan></text>
+    <text id="커뮤니티가_있으면_다른_사용자와_맛집_공유와_정보를_쉽게_알_수_있을_것_같아_" data-name="커뮤니티가 있으면 다른 
+사용자와 맛집 공유와 정보를 
+쉽게 알 수 있을 것 같아~" transform="translate(1152 4790)" fill="#232323" font-size="18" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-weight="700"><tspan x="-88.875" y="0">커뮤니티</tspan><tspan y="0" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500">가 있으면 다른 </tspan><tspan font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="-107.514" y="28">사용자와 </tspan><tspan y="28" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-weight="700">맛집 공유와 정보를 </tspan><tspan x="-89.775" y="56">쉽게 알 수 있을 것 같아~</tspan></tspan></text>
+    <rect id="사각형_84" data-name="사각형 84" width="256" height="9" transform="translate(1405 4786)" fill="#ffdda8"/>
+    <rect id="사각형_722" data-name="사각형 722" width="102" height="9" transform="translate(1448 4841)" fill="#ffdda8"/>
+    <text id="편리하고_간편한_부가적인_기능들을_추가해_사용자들을_잡을_수_있는_경쟁력을_확보해야겠어." data-name="편리하고 간편한 부가적인 기능들을 
+추가해 사용자들을 잡을 수 있는 
+경쟁력을 확보해야겠어." transform="translate(1535 4789)" fill="#232323" font-size="18" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-weight="700" letter-spacing="-0.012em"><tspan x="-130.428" y="0">편리하고 간편한 부가적인 기능들을 </tspan><tspan font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="-115.929" y="28">추가해 사용자들을 잡을 수 있는 </tspan></tspan><tspan x="-86.337" y="56">경쟁력을 확보</tspan><tspan y="56" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500">해야겠어.</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1629" height="950" viewBox="0 0 1629 950">
+  <defs>
+    <filter id="사각형_707" x="0" y="0" width="1629" height="950" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-color="#fbb03b" flood-opacity="0.471"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_1532" data-name="그룹 1532" transform="translate(-145.5 -9442)">
+    <g transform="matrix(1, 0, 0, 1, 145.5, 9442)" filter="url(#사각형_707)">
+      <rect id="사각형_707-2" data-name="사각형 707" width="1479" height="800" rx="30" transform="translate(75 70)" fill="#fff"/>
+    </g>
+    <text id="나이_:_25세" data-name="나이 : 25세" transform="translate(588 9604)" fill="#444" font-size="18" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500" letter-spacing="-0.032em"><tspan x="-39.816" y="0">나이 : 25세</tspan></text>
+    <text id="직업_:_취업준비생" data-name="직업 : 취업준비생" transform="translate(710 9604)" fill="#444" font-size="18" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500" letter-spacing="-0.032em"><tspan x="-62.1" y="0">직업 : 취업준비생</tspan></text>
+    <text id="학과_:_패션디자인_학과_4학년" data-name="학과 : 패션디자인 학과 4학년" transform="translate(650 9635)" fill="#444" font-size="18" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500" letter-spacing="-0.032em"><tspan x="-102.384" y="0">학과 : 패션디자인 학과 4학년</tspan></text>
+    <text id="Behavior" transform="translate(377 9723)" fill="#444" font-size="20" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-weight="700" letter-spacing="-0.032em"><tspan x="-42.11" y="0">Behavior</tspan></text>
+    <text id="결단력" transform="translate(359 9759)" fill="#444" font-size="18" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500" letter-spacing="-0.032em"><tspan x="-24.264" y="0">결단력</tspan></text>
+    <text id="맛집_관심도" data-name="맛집 관심도" transform="translate(377 9792)" fill="#444" font-size="18" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500" letter-spacing="-0.032em"><tspan x="-41.985" y="0">맛집 관심도</tspan></text>
+    <text id="앱_사용_능숙도" data-name="앱 사용 능숙도" transform="translate(387 9825)" fill="#444" font-size="18" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500" letter-spacing="-0.032em"><tspan x="-51.714" y="0">앱 사용 능숙도</tspan></text>
+    <text id="적음" transform="translate(485 9759)" fill="#444" font-size="16" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500" letter-spacing="-0.032em"><tspan x="-14.464" y="0">적음</tspan></text>
+    <text id="적음-2" data-name="적음" transform="translate(485 9824)" fill="#444" font-size="16" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500" letter-spacing="-0.032em"><tspan x="-14.464" y="0">적음</tspan></text>
+    <text id="적음-3" data-name="적음" transform="translate(485 9792)" fill="#444" font-size="16" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500" letter-spacing="-0.032em"><tspan x="-14.464" y="0">적음</tspan></text>
+    <text id="많음" transform="translate(727 9759)" fill="#444" font-size="16" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500" letter-spacing="-0.032em"><tspan x="-14.464" y="0">많음</tspan></text>
+    <text id="많음-2" data-name="많음" transform="translate(727 9823)" fill="#444" font-size="16" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500" letter-spacing="-0.032em"><tspan x="-14.464" y="0">많음</tspan></text>
+    <text id="많음-3" data-name="많음" transform="translate(727 9792)" fill="#444" font-size="16" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500" letter-spacing="-0.032em"><tspan x="-14.464" y="0">많음</tspan></text>
+    <path id="패스_2548" data-name="패스 2548" d="M-1924.668,6633c1.059.363,144-.375,192.006,0" transform="translate(2435 3120)" fill="none" stroke="#fbb03b" stroke-width="1" stroke-dasharray="1" opacity="0.67"/>
+    <path id="패스_2549" data-name="패스 2549" d="M-1924.668,6633c1.059.363,144-.375,192.006,0" transform="translate(2435 3184)" fill="none" stroke="#fbb03b" stroke-width="1" stroke-dasharray="1" opacity="0.67"/>
+    <path id="패스_2550" data-name="패스 2550" d="M-1924.668,6633c1.059.363,144-.375,192.006,0" transform="translate(2435 3152)" fill="none" stroke="#fbb03b" stroke-width="1" stroke-dasharray="1" opacity="0.67"/>
+    <g id="타원_180" data-name="타원 180" transform="translate(594 9744)" fill="#fff" stroke="#fe3c00" stroke-width="4">
+      <circle cx="8" cy="8" r="8" stroke="none"/>
+      <circle cx="8" cy="8" r="6" fill="none"/>
+    </g>
+    <g id="타원_181" data-name="타원 181" transform="translate(669 9809)" fill="#fff" stroke="#2769fe" stroke-width="4">
+      <circle cx="8" cy="8" r="8" stroke="none"/>
+      <circle cx="8" cy="8" r="6" fill="none"/>
+    </g>
+    <g id="타원_182" data-name="타원 182" transform="translate(634 9778)" fill="#fff" stroke="#2769fe" stroke-width="4">
+      <circle cx="8" cy="8" r="8" stroke="none"/>
+      <circle cx="8" cy="8" r="6" fill="none"/>
+    </g>
+    <text id="이지수씨는_패션디자인을_전공하고_대학교_내에서도_맛집을_탐방하는_동아리에_가입할_정도로_음식에_진심인_대학생이다._동아리에서_매주_맛집을_공유하고_의견을_나눈_후_맛집_탐방을_해야_하는_이지수_씨는_고민이_많았다._첫_번째로는_매주_새로운_맛집을_찾아야_한다는_점_두_번째로는_맛집은_기다리는_시간이_많이_소모된다는_점이었다._이러한_문제점을_해결하기_위해_맛집_정보를_알려주고_원격으로_줄_서기를_할_수_있는_테이블링을_알게_되었다." data-name="이지수씨는 패션디자인을 전공하고 대학교 내에서도 맛집을 탐방하는 동아리에 
+가입할 정도로 음식에 진심인 대학생이다. 동아리에서 매주 맛집을 공유하고 
+의견을 나눈 후 맛집 탐방을 해야 하는 이지수 씨는 고민이 많았다. 첫 번째로는 
+매주 새로운 맛집을 찾아야 한다는 점, 두 번째로는 맛집은 기다리는 
+시간이 많이 소모된다는 점이었다. 이러한 문제점을 해결하기 위해 맛집 정보를 
+알려주고 원격으로 줄 서기를 할 수 있는 테이블링을 알게 되었다." transform="translate(919 9723)" fill="#444" font-size="20" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">이지수씨는 패션디자인을 전공하고 대학교 내에서도 맛집을 탐방하는 동아리에 </tspan><tspan x="0" y="37">가입할 정도로 음식에 진심인 대학생이다. 동아리에서 매주 맛집을 공유하고 </tspan><tspan x="0" y="74">의견을 나눈 후 맛집 탐방을 해야 하는 이지수 씨는 고민이 많았다. 첫 번째로는 </tspan><tspan x="0" y="111">매주 새로운 맛집을 찾아야 한다는 점, 두 번째로는 맛집은 기다리는 </tspan><tspan x="0" y="148">시간이 많이 소모된다는 점이었다. 이러한 문제점을 해결하기 위해 맛집 정보를 </tspan><tspan x="0" y="185">알려주고 원격으로 줄 서기를 할 수 있는 테이블링을 알게 되었다.</tspan></text>
+    <text id="_Frustration" data-name=" Frustration" transform="translate(919 10049)" fill="#fbb03b" font-size="24" font-family="MollenPersonalUse-Bold, Mollen Personal Use" font-weight="700" letter-spacing="0.021em"><tspan x="0" y="0" xml:space="preserve"> Frustration</tspan></text>
+    <circle id="타원_183" data-name="타원 183" cx="5" cy="5" r="5" transform="translate(923 10083)" fill="#fbb03b"/>
+    <circle id="타원_184" data-name="타원 184" cx="5" cy="5" r="5" transform="translate(923 10120)" fill="#fbb03b"/>
+    <circle id="타원_185" data-name="타원 185" cx="5" cy="5" r="5" transform="translate(923 10158)" fill="#fbb03b"/>
+    <circle id="타원_187" data-name="타원 187" cx="5" cy="5" r="5" transform="translate(923 10195)" fill="#fbb03b"/>
+    <text id="맛집_탐방에_필요한_여러_정보를_한눈에_볼_수_있는_곳이_없다._" data-name="맛집 탐방에 필요한 여러 정보를 한눈에 볼 수 있는 곳이 없다. " transform="translate(946 10096)" fill="#444" font-size="20" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500" letter-spacing="0.021em"><tspan x="0" y="0">맛집 탐방에 필요한 여러 정보를 한눈에 볼 수 있는 곳이 없다. </tspan></text>
+    <text id="새롭고_신선한_맛집을_찾는_방법이_부족하다." data-name="새롭고 신선한 맛집을 찾는 방법이 부족하다." transform="translate(945 10133)" fill="#444" font-size="20" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500" letter-spacing="0.021em"><tspan x="0" y="0">새롭고 신선한 맛집을 찾는 방법이 부족하다.</tspan></text>
+    <text id="맛집을_기다리는_시간과_맛집_안에서_음식을_주문하는_시간이_많이_소비된다." data-name="맛집을 기다리는 시간과 맛집 안에서 음식을 주문하는 시간이 많이 소비된다." transform="translate(945 10170)" fill="#444" font-size="20" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500" letter-spacing="-0.038em"><tspan x="0" y="0">맛집을 기다리는 시간과 맛집 안에서 음식을 주문하는 시간이 많이 소비된다.</tspan></text>
+    <text id="취향에_맞는_맛집을_찾는데_어려움이_있다." data-name="취향에 맞는 맛집을 찾는데 어려움이 있다." transform="translate(946 10208)" fill="#444" font-size="20" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="0" y="0">취향에 맞는 맛집을 찾는데 어려움이 있다.</tspan></text>
+    <text id="Needs" transform="translate(340 9933)" fill="#fbb03b" font-size="24" font-family="MollenPersonalUse-Bold, Mollen Personal Use" font-weight="700"><tspan x="0" y="0">Needs</tspan></text>
+    <text id="Pain_point" data-name="Pain point" transform="translate(340 10122)" fill="#fbb03b" font-size="24" font-family="MollenPersonalUse-Bold, Mollen Personal Use" font-weight="700"><tspan x="0" y="0">Pain point</tspan></text>
+    <circle id="타원_188" data-name="타원 188" cx="5" cy="5" r="5" transform="translate(340 9966)" fill="#fbb03b"/>
+    <circle id="타원_189" data-name="타원 189" cx="5" cy="5" r="5" transform="translate(340 10002)" fill="#fbb03b"/>
+    <circle id="타원_190" data-name="타원 190" cx="5" cy="5" r="5" transform="translate(340 10038)" fill="#fbb03b"/>
+    <text id="맛집을_서로_공유하고_소통할_수_있으면_좋을_것_같다." data-name="맛집을 서로 공유하고 소통할 수 있으면 좋을 것 같다." transform="translate(362 9980)" fill="#444" font-size="20" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="0" y="0">맛집을 서로 공유하고 소통할 수 있으면 좋을 것 같다.</tspan></text>
+    <text id="개인_취향에_맞는_맛집이_궁금하다." data-name="개인 취향에 맞는 맛집이 궁금하다." transform="translate(362 10016)" fill="#444" font-size="20" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="0" y="0">개인 취향에 맞는 맛집이 궁금하다.</tspan></text>
+    <text id="식당_안에서는_시간을_절약하고_바로_식사하고_싶다." data-name="식당 안에서는 시간을 절약하고 바로 식사하고 싶다." transform="translate(362 10052)" fill="#444" font-size="20" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="0" y="0">식당 안에서는 시간을 절약하고 바로 식사하고 싶다.</tspan></text>
+    <circle id="타원_191" data-name="타원 191" cx="5" cy="5" r="5" transform="translate(340 10197)" fill="#fbb03b"/>
+    <circle id="타원_192" data-name="타원 192" cx="5" cy="5" r="5" transform="translate(340 10158)" fill="#fbb03b"/>
+    <text id="맛집_정보를_얻기에_어려움이_있다." data-name="맛집 정보를 얻기에 어려움이 있다." transform="translate(360 10171)" fill="#444" font-size="20" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="0" y="0">맛집 정보를 얻기에 어려움이 있다.</tspan></text>
+    <text id="맛집을_탐방하면서_시간을_절약하기_힘들다." data-name="맛집을 탐방하면서 시간을 절약하기 힘들다." transform="translate(360 10208)" fill="#444" font-size="20" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500"><tspan x="0" y="0">맛집을 탐방하면서 시간을 절약하기 힘들다.</tspan></text>
+    <text id="이지수씨" transform="translate(424 9631)" fill="#232323" font-size="52" font-family="NotoSansCJKkr-Medium, Noto Sans CJK KR" font-weight="500" letter-spacing="-0.032em"><tspan x="-93.184" y="0">이지수씨</tspan></text>
+  </g>
+</svg>
