@@ -1,0 +1,2445 @@
+
+.startPoint {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    z-index: 899998989;
+    background: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+
+#section01 {
+    background: #FFE354;
+    width: 100vw;
+    height: 165vh;
+}
+
+
+#section01 .inner {
+    position: relative;
+}
+
+#section01 .bg {
+    position: absolute;
+    left: 46%;
+    top: 600px;
+    transform: translate(-50%, -50%);
+}
+
+#section01 .logo_text {
+    display: flex;
+    position: absolute;
+    top: 80px;
+    left: 140px;
+    width: 1650px;
+    justify-content: space-between;
+}
+#section01 .hand02 {
+    position: absolute;
+    left: 325px;
+    top: 675px;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 0.5s 2s;
+    animation: hand 3s  infinite ease-in-out alternate;
+    transform-origin: bottom ;
+}
+
+#section01.on .hand02 {
+    transform: translatey(0);
+    opacity: 1;
+}
+
+
+@keyframes hand {
+    from {transform: rotate(0deg);}
+    50%{ transform: rotate(-12deg);}
+    to{ transform: rotate(5deg); }
+
+}
+
+#section01 .photo03 {
+    position: absolute;
+    left: 360px;
+    top: 500px;
+    transform: translatex(80px);
+    transition: all 1s 1.3s;
+    opacity: 0;
+}
+
+#section01.on .photo03 {
+    transform: scale(1);
+    opacity: 1;
+}
+
+
+#section01 .mockup {
+    position: absolute;
+    left: 485px;
+    top: 140px;
+    transform: scale(0.6);
+    opacity: 0;
+    transition: all 1s cubic-bezier(0.07, 0.55, 0.21, 1.02);
+}
+
+#section01.on .mockup {
+    transform: scale(1);
+    opacity: 1;
+}
+
+
+#section01 .hand {
+    position: absolute;
+    left: 500px;
+    top: 500px;
+    transform: translatez(5px);
+    transition: all 1s 1s;
+    opacity: 0;
+}
+
+#section01.on .hand {
+    transform: translatez(0);
+    opacity: 1;
+
+}
+
+#section01 .inner .logo_text .photo01 {
+    position: absolute;
+    left: -320px;
+    top: 350px;
+    transform: translatex(-60px);
+    transition: all 1.5s 0.6s;
+    opacity: 0;
+}
+
+#section01.on .inner .logo_text .photo01 {
+    transform: scale(1);
+    opacity: 1;
+}
+
+#section01 .photo02 {
+    position: absolute;
+    right: -280px;
+    top: 550px;
+    transform: translatex(60px);
+    transition: all 2s 0.8s;
+    opacity: 0;
+}
+
+#section01.on .inner .logo_text .photo02 {
+    transform: scale(1);
+    opacity: 1;
+}
+
+#section01 .bottom {
+    position: absolute;
+    right: -20px;
+    top: 1150px;
+
+}
+
+
+#section02 {
+    background: #FFE354;
+    height: 925px;
+}
+
+#section02 .inner .bg {
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+    pointer-events: none;
+}
+
+#section02.on .inner .bg {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section02 .inner {
+    position: relative;
+}
+
+#section02 .text {
+    position: absolute;
+    left: 265px;
+    top: 160px;
+    transform: translatey(80px);
+    opacity: 0;
+    transition: all 1s 0.5s;
+    pointer-events: none;
+}
+
+#section02.on .inner .text {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section03 {
+    background: #FFE354;
+    height: 1300px;
+}
+
+#section03 .inner .bg {
+    transform: translatey(100px);
+    opacity: 0;
+    transition: all 1s;
+    pointer-events: none;
+}
+
+#section03.on .inner .bg {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section03 .inner {
+    position: relative;
+}
+
+#section03 .card .photo01 {
+    opacity: 0;
+    transform: translatez(10px);
+    transition: all 1s 0.5s;
+    pointer-events: none;
+}
+
+#section03.on .card .photo01 {
+    opacity: 1;
+    transform: translatez(0);
+}
+
+#section03 .card .photo02 {
+    transform: translatez(10px);
+    transition: all 1s 0.5s;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#section03.on .card .photo02 {
+    opacity: 1;
+    transform: translatez(0);
+}
+
+
+#section03 .card .photo03 {
+    z-index: 99999999;
+    transform: translatez(10px);
+    opacity: 0;
+    transition: all 1s 0.5s;
+    pointer-events: none;
+}
+
+#section03.on .card .photo03 {
+    opacity: 1;
+    transform: translatez(0);
+}
+
+
+#section03 .card {
+    position: absolute;
+    top: 450px;
+    left: 100px;
+    display: flex;
+    width: 1600px;
+}
+
+#section03 .ch {
+    position: absolute;
+    top: 385px;
+    right: 145px;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s 1.5s;
+    pointer-events: none;
+}
+
+#section03.on .ch {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+
+#section03 .inner .photo_1 {
+    position: absolute;
+    display: flex;
+    top: 100px;
+    left: 100px;
+}
+
+#section03 .inner .photo01_1 {
+    position: absolute;
+    top: 422px;
+    left: 51px;
+    transform: scale(0);
+    transition: all 1s 1s cubic-bezier(0.07, 0.55, 0.21, 1.02);
+    pointer-events: none;
+}
+
+#section03.on .inner .photo01_1 {
+    transform: scale(1);
+}
+
+#section03 .inner .photo02_1 {
+    position: absolute;
+    top: 480px;
+    left: 870px;
+    transform: scale(0);
+    transition: all 1s 1s cubic-bezier(0.07, 0.55, 0.21, 1.02);
+    pointer-events: none;
+}
+
+#section03.on .inner .photo02_1 {
+    transform: scale(1);
+}
+
+
+#section03 .inner .photo03_1 {
+    position: absolute;
+    top: 630px;
+    right: -1550px;
+    z-index: 9999999999;
+    transform: scale(0);
+    transition: all 1s 1s cubic-bezier(0.07, 0.55, 0.21, 1.02);
+    pointer-events: none;
+}
+
+#section03.on .inner .photo03_1 {
+    transform: scale(1);
+}
+
+
+#section04 {
+    background: #FFE354;
+    width: 100vw;
+    height: 2561px;
+}
+
+#section04 .inner {
+    position: relative;
+}
+
+#section04 .inner .bg {
+    transform: translatey(80px);
+    opacity: 0;
+    transition: all 1s;
+    pointer-events: none;
+
+}
+
+#section04.on .inner .bg {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section04 .photo02 {
+    position: absolute;
+    top: 100px;
+    right: -70px;
+    opacity: 0;
+    transform: translatex(80px);
+    transition: all 1s 1.5s;
+    pointer-events: none;
+}
+
+#section04.on .photo02 {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section04 .photo01 {
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s 0.5s;
+    pointer-events: none;
+}
+
+#section04.on .photo01 {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section04 .inner .text01 {
+    position: absolute;
+    left: 245px;
+    top: 720px;
+    opacity: 0;
+    transform: translatez(180px);
+    transition: all 1s 1s;
+    pointer-events: none;
+}
+
+#section04.on .inner .text01 {
+    opacity: 1;
+    transform: translatez(0);
+}
+
+#section04 .inner .text02 {
+    position: absolute;
+    left: 215px;
+    top: 1020px;
+    opacity: 0;
+    transform: translatez(180px);
+    transition: all 1s 1.4s;
+    pointer-events: none;
+}
+
+#section04.on .inner .text02 {
+    opacity: 1;
+    transform: translatez(0);
+}
+
+#section04 .inner02 .bg {
+    transform: translatey(80px);
+    opacity: 0;
+    transition: all 1s;
+    pointer-events: none;
+}
+
+#section04 .inner02.on .bg {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section04 .inner02 .text02 {
+    position: absolute;
+    left: 150px;
+    top: 1700px;
+    opacity: 0;
+    transform: scale(0.6);
+    transition: all 1.5s 1s cubic-bezier(0.07, 0.55, 0.21, 1.02);
+    pointer-events: none;
+}
+
+#section04 .inner02.on .text02 {
+    opacity: 1;
+    transform: scale(1);
+}
+
+#section04 .inner02 .photo01 {
+    position: absolute;
+    left: 0;
+    top: 1200px;
+    transform: translatex(-380px);
+    transition: all 1.5s;
+    pointer-events: none;
+}
+
+#section04 .inner02.on .photo01 {
+    opacity: 1;
+    transform: translatex(0);
+}
+
+
+#section05 {
+    background: #FFE354;
+    width: 100vw;
+    height: 1413px;
+}
+
+#section05 .inner {
+    position: relative;
+}
+
+#section05 .inner .bg01 {
+    transform: translatey(80px);
+    opacity: 0;
+    transition: all 1s;
+    pointer-events: none;
+
+}
+
+#section05.on .inner .bg01 {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section05 .inner .bg02 {
+    position: absolute;
+    top: 200px;
+    left: -100px;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 1.5s 0.5s cubic-bezier(0.07, 0.55, 0.21, 1.02);
+    pointer-events: none;
+}
+
+#section05.on .inner .bg02 {
+    opacity: 1;
+    transform: scale(1);
+}
+
+#section05 .inner .text {
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+    pointer-events: none;
+}
+
+#section05.on .inner .text {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section05 .inner .photo01 {
+    position: absolute;
+    top: 650px;
+    left: 200px;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 1s 1s cubic-bezier(0.07, 0.55, 0.21, 1.02);
+    pointer-events: none;
+}
+
+#section05.on .inner .photo01 {
+    opacity: 1;
+    transform: scale(1);
+}
+
+#section05 .inner .photo02 {
+    position: absolute;
+    top: 600px;
+    left: 980px;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 1s 1s cubic-bezier(0.07, 0.55, 0.21, 1.02);
+    pointer-events: none;
+}
+
+#section05.on .inner .photo02 {
+    opacity: 1;
+    transform: scale(1);
+}
+
+#section06 {
+    background: #FFE354;
+    width: 100vw;
+    height: 1275px;
+}
+
+#section06 .bg {
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+    pointer-events: none;
+}
+
+#section06.on .inner .bg {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section06 .inner {
+    position: relative;
+}
+
+#section06 .photo {
+    display: flex;
+    position: absolute;
+    top: 550px;
+    left: 200px;
+}
+
+#section06 .photo > div:nth-child(1) {
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 0.5s 0.5s;
+    pointer-events: none;
+
+}
+
+#section06.on .photo > div:nth-child(1) {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section06 .photo > div:nth-child(2) {
+    margin-top: -100px;
+    opacity: 0;
+    transform: translatey(-80px);
+    transition: all 0.5s 1s;
+    pointer-events: none;
+}
+
+#section06.on .photo > div:nth-child(2) {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section06 .photo > div:nth-child(3) {
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 0.5s 1.5s;
+    pointer-events: none;
+}
+
+#section06.on .photo > div:nth-child(3) {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section06 .photo > div:nth-child(4) {
+    margin-top: -100px;
+    opacity: 0;
+    transform: translatey(-80px);
+    transition: all 0.5s 2s;
+    pointer-events: none;
+}
+
+#section06.on .photo > div:nth-child(4) {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section07 {
+    background: #FFE354;
+    width: 100vw;
+    height: 1506px;
+}
+
+#section07 .inner .bg {
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+    pointer-events: none;
+}
+
+#section07.on .inner .bg {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section07 .inner {
+    position: relative;
+}
+
+#section07 .inner .ch {
+    position: absolute;
+    top: 320px;
+    left: 250px;
+    opacity: 0;
+    transform: translatex(-180px);
+    transition: all 1s 1s;
+    pointer-events: none;
+}
+
+#section07.on .inner .ch {
+    opacity: 1;
+    transform: translatex(0);
+}
+
+
+#section07 .inner .text {
+    position: absolute;
+    top: 480px;
+    left: 150px;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 1s cubic-bezier(0.07, 0.55, 0.21, 1.02);
+    pointer-events: none;
+}
+
+#section07.on .inner .text {
+    opacity: 1;
+    transform: scale(1);
+}
+
+#section08 {
+    background: #FFE354;
+    width: 100vw;
+    height: 1452px;
+}
+
+#section08 .bg {
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+    pointer-events: none;
+}
+
+#section08.on .inner .bg {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section08 .inner {
+    position: relative;
+}
+
+#section08 .inner .text {
+    position: absolute;
+    top: 220px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#section08 .inner .photo {
+    position: absolute;
+    top: 390px;
+    left: 220px;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+    pointer-events: none;
+}
+
+#section08.on .inner .photo {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section08 .inner .photo02 {
+    position: absolute;
+    top: 690px;
+    right: 430px;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 1s 1.3s cubic-bezier(0.07, 0.55, 0.21, 1.02);
+    pointer-events: none;
+}
+
+#section08.on .inner .photo02 {
+    opacity: 1;
+    transform: scale(1);
+}
+
+#section08 .inner .line {
+    position: absolute;
+    top: 1170px;
+    right: 225px;
+}
+
+
+#section09 {
+    background: #FFE354;
+    width: 100vw;
+    height: 1303px;
+}
+
+#section09 .bg {
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+    pointer-events: none;
+}
+
+#section09.on .inner .bg {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section09 .inner {
+    position: relative;
+}
+
+#section09 .text {
+    position: absolute;
+    top: 230px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#section09 .inner .photo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 700px;
+    position: absolute;
+    top: 440px;
+    left: 320px;
+
+}
+
+#section09 .inner .photo01 {
+    opacity: 0;
+    transform: translatey(-80px);
+    transition: all 0.5s 0.5s;
+    pointer-events: none;
+}
+
+#section09.on .inner .photo01 {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section09 .inner .photo02 {
+    opacity: 0;
+    transform: translatey(-80px);
+    transition: all 0.5s 1s;
+    pointer-events: none;
+}
+
+#section09.on .inner .photo02 {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section09 .inner .photo03 {
+    opacity: 0;
+    transform: translatey(-80px);
+    transition: all 0.5s 1.5s;
+    pointer-events: none;
+}
+
+#section09.on .inner .photo03 {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section09 .inner .photo04 {
+    opacity: 0;
+    transform: translatey(-80px);
+    transition: all 0.5s 2s;
+    pointer-events: none;
+}
+
+#section09.on .inner .photo04 {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section10 {
+    background: #FFE354;
+    width: 100vw;
+    height: 1141px;
+}
+
+#section10 .bg {
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+    pointer-events: none;
+}
+
+#section10.on .inner .bg {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section10 .inner {
+    position: relative;
+}
+
+#section10 .inner .line01 {
+    position: absolute;
+    top: 495px;
+    left: 220px;
+    opacity: 0;
+    transform: translatex(80px);
+    transition: all 1.6s 0.8s;
+    pointer-events: none;
+    clip-path: inset(0% 300% 0% 0%);
+
+}
+
+
+#section10.on .inner .line01 {
+    opacity: 1;
+    transform: translatex(0);
+    clip-path: inset(0% 0% 0% 0%);
+}
+
+#section10 .inner .line02 {
+    position: absolute;
+    top: 593px;
+    left: 725px;
+    opacity: 0;
+    transform: translatex(80px);
+    transition: all 1.6s 1.4s;
+    pointer-events: none;
+    clip-path: inset(0% 300% 0% 0%);
+}
+
+#section10.on .inner .line02 {
+    opacity: 1;
+    transform: translatex(0);
+    clip-path: inset(0% 0% 0% 0%);
+}
+
+#section10 .inner .line03 {
+    position: absolute;
+    top: 677px;
+    left: 223px;
+    opacity: 0;
+    transform: translatex(80px);
+    transition: all 1.6s 2s;
+    pointer-events: none;
+    clip-path: inset(0% 300% 0% 0%);
+}
+
+#section10.on .inner .line03 {
+    opacity: 1;
+    transform: translatex(0);
+    clip-path: inset(0% 0% 0% 0%);
+}
+
+#section10 .inner .line04 {
+    position: absolute;
+    top: 775px;
+    left: 220px;
+    opacity: 0;
+    transform: translatex(80px);
+    transition: all 1.6s 2.6s;
+    pointer-events: none;
+    clip-path: inset(0% 300% 0% 0%);
+}
+
+#section10.on .inner .line04 {
+    opacity: 1;
+    transform: translatex(0);
+    clip-path: inset(0% 0% 0% 0%);
+}
+
+
+#section10 .inner .line05 {
+    position: absolute;
+    top: 872px;
+    left: 520px;
+    opacity: 0;
+    transform: translatex(80px);
+    transition: all 1.6s 3.2s;
+    pointer-events: none;
+    clip-path: inset(0% 300% 0% 0%);
+}
+
+#section10.on .inner .line05 {
+    opacity: 1;
+    transform: translatex(0);
+    clip-path: inset(0% 0% 0% 0%);
+}
+
+
+#section10 .inner .text {
+    position: absolute;
+    top: 400px;
+    left: 225px;
+    opacity: 0;
+    transform: translatex(-500px);
+    transition: all 1s;
+    pointer-events: none;
+}
+
+#section10.on .inner .text {
+    opacity: 1;
+    transform: translatex(0);
+}
+
+#section10 .inner .circle01 {
+    position: absolute;
+    top: 477px;
+    left: 205px;
+    opacity: 0;
+    transform: translatez(10px);
+    transition: all 1s 0.8s;
+    pointer-events: none;
+}
+
+#section10.on .inner .circle01 {
+    opacity: 1;
+    transform: translatez(0);
+}
+
+#section10 .inner .circle02 {
+    position: absolute;
+    top: 571px;
+    left: 712px;
+    opacity: 0;
+    transform: translatez(10px);
+    transition: all 1.6s 1.4s;
+    pointer-events: none;
+}
+
+#section10.on .inner .circle02 {
+    opacity: 1;
+    transform: translatez(0);
+}
+
+#section10 .inner .circle03 {
+    position: absolute;
+    top: 658px;
+    left: 207px;
+    opacity: 0;
+    transform: translatez(10px);
+    transition: all 0.8s 2.2s;
+    pointer-events: none;
+}
+
+#section10.on .inner .circle03 {
+    opacity: 1;
+    transform: translatex(0);
+}
+
+#section10 .inner .circle04 {
+    position: absolute;
+    top: 755px;
+    left: 207px;
+    opacity: 0;
+    transform: translatez(10px);
+    transition: all 0.8s 2.6s;
+    pointer-events: none;
+}
+
+#section10.on .inner .circle04 {
+    opacity: 1;
+    transform: translatex(0);
+}
+
+#section10 .inner .circle05 {
+    position: absolute;
+    top: 850px;
+    left: 505px;;
+    opacity: 0;
+    transform: translatez(10px);
+    transition: all 0.8s 3.2s;
+    pointer-events: none;
+}
+
+#section10.on .inner .circle05 {
+    opacity: 1;
+    transform: translatez(0);
+}
+
+
+#section10 .inner .ch {
+    position: absolute;
+    top: 475px;
+    right: -30px;
+    opacity: 0;
+    transform: translatex(200px);
+    transition: all 2s 4s;
+    pointer-events: none;
+}
+
+#section10.on .inner .ch {
+    opacity: 1;
+    transform: translatex(0);
+}
+
+#section11 {
+    background: #FFE354;
+    width: 100vw;
+    height: 2178px;
+}
+
+#section11 .bg {
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+    pointer-events: none;
+}
+
+#section11.on .inner .bg {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section11 .inner {
+    position: relative;
+}
+
+#section11 .inner .text01 {
+    position: absolute;
+    opacity: 0;
+    top: 150px;
+    left: 500px;
+    transform: translatey(80px);
+}
+
+#section11.on .inner .text01 {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section11 .inner .text02 {
+    position: absolute;
+    top: 580px;
+    left: 140px;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 2s 0.5s;
+    pointer-events: none;
+}
+
+#section11.on .inner .text02 {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section12 {
+    background: #FFE354;
+    width: 100vw;
+    height: 2674px;
+}
+
+#section12 .bg {
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+    pointer-events: none;
+}
+
+#section12.on .inner .bg {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section12 .inner .text {
+    position: absolute;
+    top: 280px;
+    left: 40px;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 2s 0.5s;
+    pointer-events: none;
+}
+
+#section12.on .inner .text {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section13 {
+    background: #FFE354;
+    width: 100vw;
+    height: 1743px;
+}
+
+#section13 .inner {
+    position: relative;
+}
+
+#section13 .inner .photo_slide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 60px;
+    display: flex;
+    animation: moveX 10s infinite linear;
+}
+
+#section13 .inner .photo_slide > div:nth-child(2) {
+    margin-left: 100px;
+}
+
+@keyframes moveX {
+    100% {
+        transform: translatex(-3045px);
+    }
+}
+
+#section13 .inner .bg {
+    position: absolute;
+    top: 500px;
+    left: 0;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+    pointer-events: none;
+}
+
+#section13 .inner.on .bg {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section13 .inner .ch01 {
+    position: absolute;
+    top: 1400px;
+    left: -100px;
+    opacity: 0;
+    transform: translatex(-180px);
+    transition: all 1s 1s;
+    pointer-events: none;
+}
+
+#section13 .inner.on .ch01 {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+
+#section13 .inner .ch02 {
+    position: absolute;
+    top: 1300px;
+    right: -95px;
+    opacity: 0;
+    transform: translatex(180px);
+    transition: all 1s 1s;
+    pointer-events: none;
+}
+
+#section13 .inner.on .ch02 {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+
+#section14 {
+    background: #FFE354;
+    width: 100vw;
+    height: 3312px;
+}
+
+#section14 .inner .bg {
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+    pointer-events: none;
+}
+
+#section14.on .inner .bg {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section14 .inner {
+    position: relative;
+}
+
+#section14 .inner .photo01 {
+    position: absolute;
+    top: 450px;
+    left: 150px;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s 0.5s;
+    pointer-events: none;
+}
+
+#section14.on .inner .photo01 {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+
+#section14 .inner .photo02 {
+    position: absolute;
+    top: 1350px;
+    left: 195px;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+    pointer-events: none;
+}
+
+#section14 .inner .photo02.on {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+
+#section14 .inner .photo03 {
+    position: absolute;
+    top: 2040px;
+    left: 195px;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+    pointer-events: none;
+}
+
+#section14 .inner .photo03.on {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+
+#section14 .inner .photo04 {
+    position: absolute;
+    top: 2590px;
+    left: 195px;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+    pointer-events: none;
+}
+
+#section14 .inner .photo04.on {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section15 {
+    background: #FFE354;
+    width: 100vw;
+    height: 1172px;
+}
+
+#section15 .bg {
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+    pointer-events: none;
+}
+
+#section15.on .inner .bg {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#section15 .inner {
+    position: relative;
+}
+
+#section15 .inner .character > div {
+    transform: scale(0);
+    transition: all cubic-bezier(0.63, 0.08, 0.58, 1) .8s;
+    opacity: 0;
+}
+
+#section15 .inner .character > div:nth-child(1) {
+    transition-delay: .2s
+}
+
+#section15 .inner .character > div:nth-child(2) {
+    transition-delay: .4s
+}
+
+#section15 .inner .character > div:nth-child(3) {
+    transition-delay: .6s
+}
+
+#section15 .inner .character > div:nth-child(4) {
+    transition-delay: .8s
+}
+
+#section15 .inner .character > div:nth-child(5) {
+    transition-delay: .7s
+}
+
+#section15 .inner .character > div:nth-child(6) {
+    transition-delay: 1s
+}
+
+
+#section15.on .inner .character > div {
+    transform: scale(1);
+    opacity: 1;
+
+}
+
+#section15 .inner .photo06 {
+    position: absolute;
+    top: 350px;
+    left: 180px;
+}
+#section15 .inner .photo06 > img {
+    transition: all 1s;
+}
+
+#section15 .inner .photo06:hover > img {
+    transform: scale(1.1);
+}
+
+#section15 .inner .photo01 {
+    position: absolute;
+    top: 800px;
+    left: 430px;
+}
+
+#section15 .inner .photo01 > img {
+    transition: all 1s;
+}
+
+#section15 .inner .photo01:hover > img {
+    transform: scale(1.1);
+}
+
+#section15 .inner .photo04 {
+    position: absolute;
+    top: 330px;
+    left: 680px;
+}
+
+#section15 .inner .photo04 > img {
+    transition: all 1s;
+}
+
+#section15 .inner .photo04:hover > img {
+    transform: scale(1.1);
+}
+
+#section15 .inner .photo05 {
+    position: absolute;
+    top: 600px;
+    left: 860px;
+}
+
+#section15 .inner .photo05 > img {
+    transition: all 1s;
+}
+
+#section15 .inner .photo05:hover > img {
+    transform: scale(1.1);
+}
+
+#section15 .inner .photo02 {
+    position: absolute;
+    top: 680px;
+    right: 80px;
+}
+
+#section15 .inner .photo02 > img {
+    transition: all 1s;
+}
+
+#section15 .inner .photo02:hover > img {
+    transform: scale(1.1);
+}
+
+#section15 .inner .photo03 {
+    position: absolute;
+    top: 340px;
+    right: 330px;
+}
+
+#section15 .inner .photo03 > img {
+    transition: all 1s;
+}
+
+#section15 .inner .photo03:hover > img {
+    transform: scale(1.1);
+}
+
+#splash {
+    background: #FFE354;
+    width: 100vw;
+    height: 1967px;
+}
+
+#splash .inner {
+    position: relative;
+}
+
+#splash .inner .text {
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#splash .inner .bg01 {
+    position: absolute;
+    top: 550px;
+    left: 0;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+    pointer-events: none;
+}
+
+#splash.on .inner .bg01 {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#splash .inner .bg02 {
+    position: absolute;
+    top: 1150px;
+    left: 0;
+}
+
+#splash .inner .photo {
+    position: absolute;
+    top: 1300px;
+    left: -60px;
+    opacity: 0;
+    transform: translatey(-80px);
+    transition: all 1s;
+    pointer-events: none;
+}
+
+#splash .inner .photo.on {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#splash .inner .mockup {
+    position: absolute;
+    top: 1250px;
+    left: 0;
+}
+
+#splash .inner .ch {
+    position: absolute;
+    top: 1638px;
+    right: 50px;
+    opacity: 0;
+    transform: translatex(100px);
+    transition: all 1s 1s;
+    pointer-events: none;
+}
+
+#splash .inner .ch.on {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#walk_login {
+    width: 100vw;
+    height: 120vw;
+    background: white;
+}
+
+#walk_login .inner {
+    position: relative;
+}
+
+#walk_login .inner .bg {
+    position: absolute;
+    top: 200px;
+    left: -172px;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+    pointer-events: none;
+}
+
+#walk_login.on .inner .bg {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#walk_login .inner .photo01 {
+    position: absolute;
+    top: 600px;
+    left: 290px;
+    opacity: 0;
+    transform: translatey(-40px);
+    transition: all 1s 0.5s;
+    pointer-events: none;
+}
+
+#walk_login.on .inner .photo01 {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#walk_login .inner .photo02 {
+    position: absolute;
+    top: 600px;
+    left: 650px;
+    opacity: 0;
+    transform: translatey(-40px);
+    transition: all 1s 0.5s;
+    pointer-events: none;
+}
+
+#walk_login.on .inner .photo02 {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#walk_login .inner .mockup01 {
+    position: absolute;
+    top: 273px;
+    left: 1128px;
+    opacity: 0;
+    transform: translatey(-40px);
+    transition: all 1s 0.5s;
+    pointer-events: none;
+}
+
+#walk_login.on .inner .mockup01 {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#walk_login .inner .walk_video {
+    position: absolute;
+    top: 329px;
+    right: 76px;
+    opacity: 0;
+    transform: translatey(-40px);
+    transition: all 1s 0.5s;
+    pointer-events: none;
+}
+
+#walk_login.on .inner .walk_video {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+
+#walk_login .inner .photo {
+    position: absolute;
+    top: 1600px;
+    left: 580px;
+    opacity: 0;
+    transform: translatey(-40px);
+    transition: all 1s 0.5s;
+    pointer-events: none;
+}
+
+#walk_login .inner .photo.on {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#walk_login .inner .mockup02 {
+    position: absolute;
+    top: 1440px;
+    left: 100px;
+    opacity: 0;
+    transform: translatey(-40px);
+    transition: all 1s 0.5s;
+    pointer-events: none;
+}
+
+#walk_login .inner .mockup02.on {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#walk_login .inner .login_video {
+    position: absolute;
+    top: 1608px;
+    left: 90px;
+    opacity: 0;
+    transform: translatey(-40px);
+    transition: all 1s 0.5s;
+    pointer-events: none;
+}
+
+#walk_login .inner .login_video.on {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+
+#check {
+    width: 100vw;
+    height: 140vw;
+    background: white;
+}
+
+#check .inner {
+    position: relative;
+}
+
+#check .inner .bg {
+    position: absolute;
+    top: 300px;
+    right: 480px;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+    pointer-events: none;
+}
+
+#check.on .inner .bg {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#check .inner .one {
+    position: absolute;
+    top: 740px;
+    left: -400px;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 1s 1s cubic-bezier(0.07, 0.55, 0.21, 1.02);
+}
+
+#check .inner .one.on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+#check .inner .two {
+    position: absolute;
+    top: 750px;
+    right: -200px;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 1s 1.2s cubic-bezier(0.07, 0.55, 0.21, 1.02);
+}
+
+#check .inner .two.on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+#check .inner .mockup {
+    position: absolute;
+    top: 450px;
+    left: 180px;
+    opacity: 0;
+    transform: translatey(-80px);
+    transition: all 1s 0.5s;
+    pointer-events: none;
+}
+
+#check.on .inner .mockup {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#check .inner .check_video {
+    position: absolute;
+    top: 505px;
+    left: -5px;
+    opacity: 0;
+    transform: translatey(-60px);
+    transition: all 1s 0.5s;
+    pointer-events: none;
+}
+
+#check.on .inner .check_video {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#check .inner .photo01 {
+    position: absolute;
+    top: 910px;
+    left: 720px;
+    opacity: 0;
+    transform: translatey(-60px);
+    transition: all 1s 1s;
+    pointer-events: none;
+}
+
+#check.on .inner .photo01 {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#check .inner .photo02 {
+    position: absolute;
+    top: 1380px;
+    right: 180px;
+    opacity: 0;
+    transform: translatey(-60px);
+    transition: all 1s 1.4s;
+    pointer-events: none;
+}
+
+#check.on .inner .photo02 {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#check .inner .photo03 {
+    position: absolute;
+    top: 1620px;
+    left: 180px;
+    opacity: 0;
+    transform: translatey(-60px);
+    transition: all 1s 1.6s;
+    pointer-events: none;
+}
+
+#check.on .inner .photo03 {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#check .inner .three {
+    position: absolute;
+    top: 2430px;
+    right: 320px;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 1s cubic-bezier(0.07, 0.55, 0.21, 1.02);
+}
+
+#check .inner .three.on {
+    opacity: 1;
+    transform: scale(1);
+}
+
+#main {
+    background: #FFE354;
+    width: 100vw;
+    height: 4820px;
+}
+
+#main .inner {
+    position: relative;
+}
+
+#main .inner .text {
+    position: absolute;
+    left: 50%;
+    top: 480px;
+    transform: translate(-50%, -50%);
+
+}
+
+#main .inner .br01 {
+    position: absolute;
+    left: 490px;
+    top: 750px;
+    transform: scale(0);
+    transition: all 1s 0.5s cubic-bezier(0.07, 0.55, 0.21, 1.02);
+    pointer-events: none;
+}
+
+#main.on .inner .br01 {
+    transform: scale(1);
+}
+
+#main .inner .br02 {
+    position: absolute;
+    left: -100px;
+    top: 900px;
+    transform: translatez(-60px);
+    transition: all 1s 1.6s;
+    pointer-events: none;
+}
+
+#check.on .inner .photo03 {
+    opacity: 1;
+    transform: translatez(0);
+}
+
+#main .inner .bg03 {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#main .inner .bg04 {
+    position: absolute;
+    left: 0;
+    top: 400px;
+
+}
+
+#main .inner .bg {
+    position: absolute;
+    left: 0;
+    top: 1360px;
+
+}
+
+#main .inner .main {
+    position: absolute;
+    left: 50.5%;
+    top: 2856px;
+    transform: translate(-50%, -50%);
+}
+
+#main .inner .main_video {
+    position: absolute;
+    left: 50%;
+    top: 1500px;
+    transform: translate(-50%, -50%);
+}
+
+#main .inner .photo01 {
+    position: absolute;
+    right: -80px;
+    top: 1740px;
+    opacity: 0;
+    transform: translatex(580px);
+    transition: all 1.4s;
+    pointer-events: none;
+}
+
+#main .inner .photo01.on {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#main .inner .photo02 {
+    display: flex;
+    position: absolute;
+    right: 346px;
+    top: 2589px;
+}
+
+#main .inner .photo02 .photo02_1{
+    opacity: 0;
+    transform: translatey(-80px);
+    transition: all 1.4s 0.2s;
+    pointer-events: none;
+}
+
+#main .inner .photo02.on .photo02_1 {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#main .inner .photo02 .photo02_2{
+    opacity: 0;
+    transform: translatey(-80px);
+    transition: all 1.4s .4s;
+    pointer-events: none;
+}
+
+#main .inner .photo02.on .photo02_2 {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#main .inner .photo02 .photo02_3{
+    opacity: 0;
+    transform: translatey(-80px);
+    transition: all 1.4s .6s;
+    pointer-events: none;
+}
+
+#main .inner .photo02.on .photo02_3 {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#main .inner .photo02 .photo02_4 {
+    opacity: 0;
+    transform: translatey(-80px);
+    transition: all 1.4s .8s;
+    pointer-events: none;
+}
+
+#main .inner .photo02.on .photo02_4 {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#main .inner .photo02 .photo02_5 {
+    opacity: 0;
+    transform: translatey(-80px);
+    transition: all 1.4s .8s;
+    pointer-events: none;
+}
+
+#main .inner .photo02.on .photo02_5 {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#main .inner .price {
+    position: absolute;
+    right: 200px;
+    top: 3270px;
+    overflow: hidden;
+    border: 1px solid white;
+    width: 382px;
+    height:545px;
+    border-radius: 30px;
+}
+
+
+#main .inner .price > video {
+    width: 100%;
+}
+
+#main .inner .photo03 {
+    display: flex;
+    position: absolute;
+    right: -46px;
+    top: 4296px;
+    opacity: 0;
+    transform: translatex(280px);
+    transition: all 1.5s;
+}
+
+#main .inner .photo03.on {
+    opacity: 1;
+    transform: translatex(0);
+}
+
+#smartorder {
+    background: #FFE354;
+    width: 100vw;
+    height: 2980px;
+}
+
+#smartorder .inner {
+    position: relative;
+}
+
+#smartorder .inner .bg {
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+
+}
+
+#smartorder.on .inner .bg {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+
+#smartorder .inner .mockup {
+    position: absolute;
+    top: 120px;
+    right: 180px;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+
+}
+
+#smartorder .inner.on .mockup {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+
+#smartorder .inner .smart_video {
+    position: absolute;
+    top: 170px;
+    right: 50px;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+
+}
+
+#smartorder .inner.on .smart_video {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#smartorder .inner .photo01 {
+    position: absolute;
+    top: 820px;
+    left: 200px;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+
+}
+
+#smartorder .inner .photo01.on {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#smartorder .inner .photo02 {
+    position: absolute;
+    top: 1040px;
+    left: 755px;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+
+}
+
+#smartorder.on .inner .photo02.on {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+
+#smartorder .inner .photo03 {
+    position: absolute;
+    top: 1580px;
+    left: 1300px;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+
+}
+
+#smartorder.on .inner .photo03.on {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+
+#smartorder .inner .photo04 {
+    position: absolute;
+    top: 2000px;
+    left: 525px;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+
+}
+
+#smartorder.on .inner .photo04.on {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#smartorder .inner .ch02 {
+    position: absolute;
+    top: 1180px;
+    right: -150px;
+    opacity: 0;
+    transform: translatex(80px);
+    transition: all 1s;
+
+}
+
+#smartorder .inner .ch02.on {
+    opacity: 1;
+    transform: translatex(0);
+}
+
+#smartorder .inner .ch01 {
+    position: absolute;
+    top: 1750px;
+    left: -180px;
+    opacity: 0;
+    transform: translatex(-80px);
+    transition: all 0.5s;
+
+}
+
+#smartorder .inner .ch01.on {
+    opacity: 1;
+    transform: translatex(0);
+}
+
+
+#smartorder .inner .ch03 {
+    position: absolute;
+    top: 2380px;
+    left: 800px;
+    opacity: 0;
+    transform: translatex(-80px);
+    transition: all 0.5s 1s;
+
+}
+
+#smartorder .inner .ch03.on {
+    opacity: 1;
+    transform: translatex(0);
+}
+
+#smartorder .inner .ch03_1 {
+    position: absolute;
+    top: 2380px;
+    left: 920px;
+    opacity: 0;
+    transform: translatey(10px);
+    transition: all 1s 0.5s;
+
+}
+
+#smartorder .inner .ch03_1.on {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#reservation_status {
+    background: #FFE354;
+    width: 100vw;
+    height: 1755px;
+}
+
+#reservation_status .inner {
+    position: relative;
+}
+
+#reservation_status .inner .bg {
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+
+}
+
+#reservation_status.on .inner .bg {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#reservation_status .inner .ch {
+    position: absolute;
+    top: 560px;
+    right: 80px;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s 0.5s;
+
+}
+
+#reservation_status .inner .ch.on {
+    opacity: 1;
+    transform: translatex(0);
+}
+#reservation_status .inner .photo01 {
+    position: absolute;
+    top: 700px;
+    right: 0;
+    opacity: 0;
+    transform: translatex(680px);
+    transition: all 1s;
+
+}
+
+#reservation_status .inner .photo01.on{
+    opacity: 1;
+    transform: translatex(0);
+}
+
+#reservation_status .inner .re_video {
+    position: absolute;
+    top: 534px;
+    left: -36px;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+
+}
+
+#reservation_status .inner.on .re_video{
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#reservation_status .inner .mockup {
+    position: absolute;
+    top: 480px;
+    left: 150px;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+
+}
+
+#reservation_status .inner.on .mockup {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#community {
+    background: #FFE354;
+    width: 100vw;
+    height: 2890px;
+}
+
+#community .inner {
+    position: relative;
+}
+
+#community .inner .bg {
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+
+}
+
+#community.on .inner .bg {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#community .inner .one {
+    position: absolute;
+    top: 400px;
+    right: 250px;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 1s 1s cubic-bezier(0.07, 0.55, 0.21, 1.02);
+}
+
+#community.on .inner .one {
+    opacity: 1;
+    transform: scale(1);
+}
+
+#community .inner .mockup01 {
+    position: absolute;
+    top: 200px;
+    right: 360px;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s 0.5s;
+
+}
+
+#community.on .inner .mockup01 {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#community .inner .co_video {
+    position: absolute;
+    top: 256px;
+    right: 227px;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s 0.5s;
+
+}
+
+#community.on .inner .co_video {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#community .inner .ch01 {
+    position: absolute;
+    top: 580px;
+    left: 150px;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 1s 0.5s cubic-bezier(0.07, 0.55, 0.21, 1.02);
+}
+
+#community.on .inner .ch01 {
+    opacity: 1;
+    transform: scale(1);
+}
+
+#community .inner .ch02 {
+    position: absolute;
+    top: 1200px;
+    left: 360px;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 1s 1.5s cubic-bezier(0.07, 0.55, 0.21, 1.02);
+}
+
+#community.on .inner .ch02 {
+    opacity: 1;
+    transform: scale(1);
+}
+
+#community .inner .mockup02 {
+    position: absolute;
+    top: 1750px;
+    left: 180px;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+
+}
+
+#community .inner.on .mockup02 {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#community .inner .ma_video {
+    position: absolute;
+    top: 1798px;
+    left: -4px;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+
+}
+
+#community .inner.on .ma_video {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#community .inner .ch03 {
+    position: absolute;
+    top: 2350px;
+    right: 300px;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s 1s;
+
+}
+
+#community .inner.on .ch03 {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#mypage {
+    background: #FFE354;
+    width: 100vw;
+    height: 360vh;
+}
+
+#mypage .inner {
+    position: relative;
+}
+
+#mypage .inner .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s;
+}
+
+#mypage.on .inner .bg {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+#mypage .inner .photo01 {
+    position: absolute;
+    top: 600px;
+    left: 250px;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 1s 1.5s cubic-bezier(0.07, 0.55, 0.21, 1.02);
+}
+
+#mypage.on .inner .photo01 {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+#mypage .inner .mockup {
+    position: absolute;
+    top: 120px;
+    right: 220px;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s 0.5s;
+}
+
+#mypage.on .inner .mockup {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+
+#mypage .inner .my_video {
+    position: absolute;
+    top: 179px;
+    right: 89px;
+    opacity: 0;
+    transform: translatey(80px);
+    transition: all 1s 0.5s;
+}
+
+#mypage.on .inner .my_video {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+
+#mypage .inner .photo02 {
+    position: absolute;
+    top: 1240px;
+    right: 0;
+}
+
+#mypage .inner .ch {
+    position: absolute;
+    left: 44.5%;
+    top: 2850px;
+    transform: translate(-50%, -50%);
+}
+
+#mypage .inner .text {
+    position: absolute;
+    left: 50%;
+    top: 3250px;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
